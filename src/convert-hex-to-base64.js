@@ -16,7 +16,7 @@ const results = '\n' +
   '👌  ' + hexBufferToBinaryToBase64 + '\n\n' +
   'Buffer of type hex => to base 64:\n' +
   '👌  ' + hexBufferToBase64 + '\n\n' +
-  'Buffer of certain length which is filled after construction:\n' +
+  'Buffer of certain length which is filled after construction to base 64:\n' +
   '👎  ' + filledBufferToBinaryToBase64 + '\n\n' +
   'Conclusion: What I get from these, is that it\'s really important to specify that the input ' +
   'string is encoded in hex\n';
