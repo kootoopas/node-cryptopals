@@ -1,4 +1,4 @@
 Nodejs Cryptopals
 =================
 
-Nodejs implementation of the [cryptopals crypto challenges](http://cryptopals.com/).
+Nodejs implemented solutions of the [cryptopals crypto challenges](http://cryptopals.com/).
