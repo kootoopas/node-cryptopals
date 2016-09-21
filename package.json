@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "btoa": "^1.1.2"
+    "bignumber.js": "^2.4.0",
+    "btoa": "^1.1.2",
+    "buffer-xor": "^2.0.1"
   },
   "devDependencies": {
     "eslint": "^2.13.1",
