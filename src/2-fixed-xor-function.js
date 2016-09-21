@@ -6,3 +6,7 @@ const buffer1 = new Buffer('1c0111001f010100061a024b53535009181c', 'hex');
 const buffer2 = new Buffer('686974207468652062756c6c277320657965', 'hex');
 
 const result = xor(buffer1, buffer2);
+
+console.log(` ${result.toString('hex')}\n`,
+  `${EXPECTED_XOR_RESULT}\n`,
+  result.toString('hex') === EXPECTED_XOR_RESULT);
