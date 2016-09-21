@@ -11,13 +11,12 @@
   "dependencies": {
     "bignumber.js": "^2.4.0",
     "btoa": "^1.1.2",
-    "buffer-xor": "^2.0.1"
+    "buffer-xor": "^2.0.1",
+    "fill-range": "^3.0.3"
   },
   "devDependencies": {
-    "eslint": "^2.13.1",
-    "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-import": "^1.10.2",
-    "eslint-plugin-jsx-a11y": "^1.5.5",
-    "eslint-plugin-react": "^5.2.2"
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb-base": "^7.1.0",
+    "eslint-plugin-import": "^1.15.0"
   }
 }
