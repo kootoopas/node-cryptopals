@@ -23,7 +23,8 @@ function xor(hexBuffer1, hexBuffer2) {
   let xorBuffer;
 
   try {
-    if (!hexBuffer1 instanceof Buffer || !hexBuffer2 instanceof Buffer) {
+    if (!hexBuffer1 instanceof Buffer ||
+        !hexBuffer2 instanceof Buffer) {
       throw new TypeError('Only Buffer objects are accepted.');
     }
 
